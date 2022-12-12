@@ -6,23 +6,19 @@ anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 
 
 '''
 
-# Entrada
 
 temperaturas = []
 
 for i in range(12):
     temperaturas.append(float(input('Digite a temperatura do mês: ')))
 
-# Processamento
 
 media = sum(temperaturas) / len(temperaturas)
 print('Média: ', media)
 
-# Saída
 
 meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 
 for i in range(len(temperaturas)):
     if temperaturas[i] > media:
         print('Mês: ', meses[i], 'Temperatura: ', temperaturas[i])
-        

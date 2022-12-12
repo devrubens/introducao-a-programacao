@@ -5,7 +5,6 @@ caractere ‘P’, se seu argumento for positivo, e ‘N’, se seu argumento fo
 
 '''
 
-# Entrada
 
 def positivoOuNegativo(numero):
     if numero > 0:
@@ -13,9 +12,7 @@ def positivoOuNegativo(numero):
     else:
         return 'N'
 
-# Processamento
 
-# Saída
 
 print(positivoOuNegativo(1))
 print(positivoOuNegativo(0))

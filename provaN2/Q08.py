@@ -13,7 +13,6 @@ Digite uma letra: S
 
 '''
 
-# Entrada
 
 palavras = open('palavras.txt', 'r')
 palavras = palavras.read().split('\n')
@@ -25,7 +24,6 @@ letras = []
 for i in range(len(palavra)):
     letras.append('_')
 
-# Processamento
 
 erros = 0
 
@@ -51,5 +49,4 @@ while erros < 6:
 if erros == 6:
     print('Você perdeu!')
 
-# Saída
 

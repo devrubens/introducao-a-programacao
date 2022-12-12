@@ -6,11 +6,9 @@ Dado uma string com uma frase informada pelo usuário (incluindo espaços em bra
 
 '''
 
-# Entrada
 
 frase = input('Digite uma frase: ')
 
-# Processamento
 
 espacos = 0
 vogais = [0, 0, 0, 0, 0]
@@ -29,7 +27,6 @@ for i in range(len(frase)):
     elif frase[i] == 'u' or frase[i] == 'U':
         vogais[4] += 1
 
-# Saída
 
 print('Quantidade de espaços em branco: ', espacos)
 print('Quantidade de vogais a: ', vogais[0])

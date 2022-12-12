@@ -5,13 +5,9 @@ três argumentos.
 
 '''
 
-# Entrada
 
 def soma(a, b, c):
     return a + b + c
 
-# Processamento
-
-# Saída
 
 print(soma(1, 2, 3))

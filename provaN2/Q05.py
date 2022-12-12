@@ -5,15 +5,12 @@ nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
 '''
 
-# Entrada
 
 nome = input('Digite o seu nome: ')
 
-# Processamento
 
 nome = nome.upper()
 
-# Saída
 
 for i in range(len(nome) - 1, -1, -1):
     print(nome[i], end='')
